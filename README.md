@@ -50,3 +50,17 @@ Update
 pip install -r requirements.txt --upgrade
 pip freeze > requirements.txt
 ```
+
+## Docker
+
+Build
+
+```
+docker build -t test-streamlit .
+```
+
+Run
+
+```
+docker run -p 8501:8501 test-streamlit
+```
